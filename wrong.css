@@ -1,0 +1,43 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-image:url(https://i0.wp.com/detetivedaniele.com.br/wp-content/uploads/2020/08/servico_contra_espionagem.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: scroll
+}
+@import url('https://fonts.googleapis.com/css2? family= Josefin+Sans:wght@700 & display=swap');
+
+h1, h2, h3{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #E9F6FF;
+    text-align: center;
+}
+
+.gameover{
+    margin-top: 150px;
+    font-size: 90px;
+}
+
+.vitoria{
+    margin-top: 150px;
+    font-size: 90px;
+    border: 6px; border-style: solid; border-color: #E6BD0E;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+h2{
+    margin-top: 40px;
+    font-size: 27px;
+    margin-bottom: 30px;
+}
+
+h3{
+    font-size: 20px;
+    
+}

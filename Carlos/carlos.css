@@ -1,0 +1,91 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-image:url(https://i0.wp.com/detetivedaniele.com.br/wp-content/uploads/2020/08/servico_contra_espionagem.jpg);
+    background-repeat: no-repeat;
+    background-size: 2000px;
+    background-attachment: scroll
+}
+@import url('https://fonts.googleapis.com/css2? family= Josefin+Sans:wght@700 & display=swap');
+
+/* Início */
+
+h1, h2{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #E9F6FF;
+}
+
+.carlos{
+    margin-top: 90px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.bo{
+    margin-top: 30px;
+    margin-left: 70px;
+    margin-right: 400px;
+}
+
+.rotina{
+    margin-top: 35px;
+    margin-right: 80px;
+    margin-left: 300px;
+    text-align: right;
+}
+
+.resolver{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+/* Fases */
+
+.titulo{
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    color: #E9F6FF;
+    margin-top: 100px;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.texto{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #E9F6FF;
+    border: 2px; border-style: solid; border-color: #E6BD0E;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-bottom: 70px;
+}
+
+.escolha{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+ol{
+    color: #E9F6FF;
+    text-align: left;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    margin-left: 200px;
+    margin-right: 150px;
+    margin-bottom: 40px;
+}
+
+@media (max-width: 430px){
+    body{
+        flex-direction: column;
+        justify-content: space-evenly;
+        
+    }
+}
